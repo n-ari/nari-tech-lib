@@ -1,0 +1,46 @@
+# # default
+# github: [metadata]
+# encoding: UTF-8
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+# future: true
+# jailed: false
+# theme: jekyll-theme-primer
+# gfm_quirks: paragraph_end
+
+# # cannot change
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
+
+exclude: []
+include: []
+keep_files: []
+timezone: Asia/Tokyo
+url: "https://lib.n-ari.tech"
+baseurl: ""
+
+plugins:
+  - jemoji
+
+theme: minima
+
+title: nari-tech-lib
+author: nari
+email: fukunari.r.aa@m.titech.ac.jp
+description: library for competitive programming
+show_excerpts: true
+
+minima:
+  date_format: "%Y"
+  social_links:
+    twitter: rickytheta
+    github: n-ari
