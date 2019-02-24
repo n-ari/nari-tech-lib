@@ -37,12 +37,12 @@ theme: minima
 
 title: nari-tech-lib
 author: nari
-email: fukunari.r.aa@m.titech.ac.jp
+email: rickytheta@gmail.com
 description: library for competitive programming
 show_excerpts: false
 
 minima:
-  date_format: "%Y"
+  date_format: "%Y-%m-%d"
   social_links:
     twitter: rickytheta
     github: n-ari
