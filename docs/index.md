@@ -1,8 +1,11 @@
 ---
 layout: home
-title: top
+title: Top
+list_title: Blogs
 ---
 
 nari(AtCoder: rickytheta)による、競技プログラミング用ライブラリとそれらの説明用Webページです。
 
-{% include components/child-navigation.md %}
+## Contents
+
+* [library](/library)

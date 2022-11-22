@@ -8,9 +8,11 @@
         {% assign childpages = childpages | push: cpage %}
     {% endif %}
 {% endif %}{% endfor %}
+<ul>
 {% for cpage in childdirs %}
-* [{{ cpage.title }}/]({{ cpage.url }})
+<li><a href="{{ cpage.url }}">{{ cpage.title }}/</a></li>
 {%- endfor %}
 {% for cpage in childpages -%}
-* [{{ cpage.title }}]({{ cpage.url }})
+<li><a href="{{ cpage.url }}">{{ cpage.title }}</a></li>
 {% endfor %}
+</ul>

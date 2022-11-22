@@ -32,15 +32,17 @@ plugins:
   - jemoji
 
 theme: minima
+lang: ja
+minima:
+  date_format: "%Y-%m-%d"
+header_pages:
+  - index.md
+  - library/index.md
 
 title: nari-tech-lib
 author: nari
-email: rickytheta@gmail.com
 description: library for competitive programming
 show_excerpts: false
 
 twitter_username: rickytheta
 github_username: n-ari
-
-minima:
-  date_format: "%Y-%m-%d"

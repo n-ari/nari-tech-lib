@@ -1,6 +1,4 @@
 ---
-layout: home
+layout: index
 title: library
 ---
-
-{% include components/child-navigation.md %}
